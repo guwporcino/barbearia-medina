@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "BarbeariaMedina",
+    "slug": "barbearia-medina",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gftecnologia.medina"
+    },
+    "android": {
+      "package": "com.gftecnologia.medina",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "83ce3449-86a0-48ea-95ef-c752fc4d9dfa"
+      }
+    }
+  }
+}
